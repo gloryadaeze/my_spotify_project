@@ -1,0 +1,129 @@
+/* .content {
+
+    padding: 39px var(--app-block-padding);
+    background-color: #1D75DE;
+    align-items: center;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0px;
+
+}
+
+.content a {
+    color: #FFFFFF;
+
+}
+
+.text {
+    align-items: center;
+    box-sizing: border-box;
+    border: #FFFFFF;
+    display: block;
+    margin-top: opx;
+    background-color: #1D75DE;
+    padding: 80px;
+
+}
+
+.text button {
+    display: inline;
+    margin: 5px;
+    text-align: center;
+    border-radius: 80px;
+    color: #FFFFFF;
+    padding: 15px 15px;
+    font-size: 15px;
+
+
+}
+
+.button-one {
+    background-color: black;
+    padding: ;
+}
+
+.button-two {
+    background-color: #1D75DE;
+    border: 2px solid #FFFFFF;
+    /* width: 190px;
+        height: 52px;  */
+/* }
+
+.one {
+    font-family: Helvetica;
+    font-weight: 70px;
+    font-size: 30px;
+    height: 48px;
+}
+
+.content p {
+    margin-top: 36px;
+}
+
+.content h1 {
+    font-family: Helvetica;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+} */ 
+
+
+.hero{
+    background-color: #1D75DE;
+    margin: 0;
+    padding: 15px;
+    min-height:  calc(480px - 30px);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.hero h1.title {
+    font-size: 39px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+.description {
+    font-size: 24px;
+}
+
+
+.terms {
+    font-size: 11px;
+
+}
+.terms a {
+    text-decoration: underline;
+    color: #FFFFFF;
+}
+
+.button-group{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 500px) {
+    .button-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1.title {
+        font-size: 2rem;
+    }
+    
+    .description {
+        font-size: 1rem;
+    }
+}
